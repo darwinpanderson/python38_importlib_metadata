@@ -4,7 +4,7 @@ services:
   web:
     build:
       context: .
-      dockerfile: django.dockerfile
+      dockerfile: dockerfiles/django.dockerfile
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/code
