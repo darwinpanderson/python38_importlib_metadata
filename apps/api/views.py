@@ -7,11 +7,11 @@ def index(request):
     """
     endpoints = [
         {
-            "endpoint":"list/",
+            "endpoint":"packages/",
             "desc":"Lists valid packages installed via Django",
             "parameters":"none"
         },{
-            "endpoint":"list/<package>",
+            "endpoint":"packages/<package>",
             "desc":"Lists all details of supplied package",
             "parameters":"package"
         }
